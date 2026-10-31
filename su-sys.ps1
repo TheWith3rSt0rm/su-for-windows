@@ -1957,7 +1957,7 @@ $script:RelayScript = $null
 $script:PolishLog = $null
 try {
     $al = (Get-ItemProperty 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize' -Name AppsUseLightTheme -ErrorAction SilentlyContinue).AppsUseLightTheme
-    $script:DarkTheme = ($al -eq 0)
+    $script:DarkTheme = $true
 } catch {}
 
 # v7.13: the REAL theme fix. conhost draws the console's own title bar
