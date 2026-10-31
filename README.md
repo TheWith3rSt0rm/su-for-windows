@@ -53,7 +53,7 @@ What it doesn't do - which is why this kit exists:
   sudo is useless in exactly the scenarios the trapdoor is for. The
   trapdoor shell is SYSTEM from the first keystroke, no UAC anywhere.
 
-The two get along: with the built-in sudo enabled, `sudo su ti` from a
+The two get along: with the built-in sudo enabled, `su ti` from a
 plain terminal works - one UAC click, the kit takes it from there.
 
 ## Install
