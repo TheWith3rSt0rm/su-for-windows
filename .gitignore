@@ -1,0 +1,5 @@
+*.bak*
+*.old
+*.log
+su-dbg*.txt
+door-log.txt
